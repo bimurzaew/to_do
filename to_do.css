@@ -1,0 +1,46 @@
+input {
+    border-color: cornflowerblue;
+    border-radius: 1px;
+    width: 400px;
+    margin-top: 30px;
+}
+#add {
+    border-color: cornflowerblue;
+    border-radius: 2px;
+    background-color: royalblue;
+    color: white;
+}
+
+#list {
+    margin-top: 20px;
+    text-align: center;
+    width: 410px;
+
+
+}
+.list_item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+    padding: 5px 0;
+    color: #e20000;
+}
+.check {
+    width: 30px;
+    margin: 0;
+}
+.main {
+    width: 600px;
+    margin: auto;
+}
+.checked {
+    background-color: #ade6e4;
+    opacity: 0.3;
+}
+.btnX {
+    border-color:cornflowerblue ;
+    background-color: royalblue;
+    color: white;
+    border-radius: 2px  ;
+}
