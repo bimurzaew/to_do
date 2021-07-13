@@ -22,11 +22,9 @@ btnAdd.addEventListener('click', () => {
     })
     getInp.addEventListener('click', (e) => {
         e.target.parentElement.classList.toggle('checked')
-        if (getBtn.disabled) {
-            getBtn.disabled = false
-        }else {
-            getBtn.disabled = true
-        }
+        getBtn.disabled = !getBtn.disabled
+
+
     })
     if (inp.value === '') {
         listItem.remove()

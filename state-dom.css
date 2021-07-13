@@ -1,0 +1,11 @@
+.text {
+    font-size: 25px;
+    color: #007069;
+    padding: 3px;
+}
+.text {
+    display: flex;
+}
+.list {
+    justify-content: space-between;
+}
