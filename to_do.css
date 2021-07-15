@@ -1,4 +1,4 @@
-input {
+#input {
     border-color: cornflowerblue;
     border-radius: 1px;
     width: 400px;
@@ -9,6 +9,15 @@ input {
     border-radius: 2px;
     background-color: royalblue;
     color: white;
+}
+.add{
+    border-color: cornflowerblue;
+    border-radius: 2px;
+    background-color: green;
+    color: red;
+    width: 23px;
+    height: 23px;
+
 }
 
 #list {
@@ -25,6 +34,7 @@ input {
     margin-top: 10px;
     padding: 5px 0;
     color: #e20000;
+    text-align: start;
 }
 .check {
     width: 30px;
